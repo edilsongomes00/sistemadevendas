@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>loja Online</h1>
+        <button id="cart-button">carrinho(<span id="cart-cout">0</span>)</button>
+    </header>
+    <main>
+        <div class="products">
+            <div class="product">
+                <h2>produto 1</h2>
+                <p> preco R$ 50</p>
+                <button class="add-to-cart" data price="" 50>Adicionar o carrinho</button>
+            </div>
+            <div class="product">
+                <h2>produto 2</h2>
+                <p> preco R$ 30</p>
+                <button class="add-to-cart" data price="" 30>Adicionar ao carrinho</button>
+            </div>
+            <div class="product">
+                <h2>produto 3</h2>
+                <p> preco R$ 20</p>
+                <button class="add-to-cart" data price="" 20>Adicionar ao carrinho</button>
+            </div>
+        </div>
+    
+    </main>
+    <footer>
+        <p>© 2024 loja Online</p>
+    </footer>
+
+    <div id="cart-modal"class="modal">
+        <div class="close">&times;</span>
+        <h2>carrinho de compras</h2>
+        </div id="cart-items"></div>
+        <p>total: R$ <span id=" total-price">0</span></p>
+        <button id="checkout-button">finalizar compra</button>
+    </div>
+    <div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
